@@ -1,0 +1,446 @@
+/* Gestion du carousel, à corriger */
+#carouselExampleIndicators {
+  height: 300px;
+  margin: auto;
+}
+
+/* Utilisation spécifique à la page des produits  */
+.carroussel-produit {
+  width: 110%;
+  height: 40%;
+  margin-left: 6%;
+}
+
+/* Fin utilisation spécifique à la page des produits  */
+/* Utilisation spécifique à la page des vendeurs  */
+.titre-vendeur {
+  text-align: center;
+  color: brown;
+  text-decoration-color: burlywood;
+  text-decoration-line: underline;
+}
+
+/* Fin utilisation spécifique à la page des vendeurs  */
+
+
+/* Utilisation spécifique au postage d'annonce  */
+.page-link {
+  background-color: bisque;
+  color: chocolate
+}
+
+/* Fin utilisation spécifiqueau postage d'annonce  */
+
+
+.carousel-item img {
+  width: 80%;
+  height: auto;
+  /* height: 50%; */
+  /* height: 200px; */
+  /* width: auto; */
+}
+
+.container_acceuil {
+
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background: skyblue;
+  padding: 2%;
+}
+
+.nav-link {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.fondNavigation {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: gray;
+}
+
+/*-------------------------------------- BOUTON ----------------------------------------------*/
+
+.boutonRien {
+  padding: 7px;
+  background-color: white;
+  border-radius: 7px;
+  border: none;
+}
+
+/* Bouton d'acceuil, fond bleu-->blanc */
+.boutonFond {
+  padding: 7px;
+  background-color: #015379;
+  color: white;
+  border-radius: 7px;
+  border: none;
+}
+
+.boutonFond:hover {
+  background-color: skyblue;
+  color: white;
+  border: none
+}
+
+/* Bouton d'acceuil, fond blanc --> bleu */
+.boutonSimple {
+  padding: 7px;
+  background-color: white;
+  color: black;
+  border-radius: 7px;
+  border: none;
+}
+
+.boutonSimple:hover {
+  background-color: skyblue;
+  color: white;
+}
+
+/* Bouton favori <3 */
+.boutonRond {
+  width: 40px;
+  padding: 7px;
+  border-radius: 30px;
+  background: linear-gradient(145deg, red, pink);
+  border: none;
+}
+
+.boutonRond:hover {
+  width: 40px;
+  padding: 7px;
+  border-radius: 30px;
+  background: linear-gradient(145deg, grey, white);
+  border: none;
+}
+
+/*Orange-->beige*/
+.boutonOrange {
+  padding: 7px;
+  background-color: #CD853F;
+  color: white;
+  border-radius: 7px;
+  border: none;
+}
+
+.boutonOrange:hover {
+  background-color: #FFE4C4;
+  color: #9B5208;
+  border: none
+}
+
+/*Beige-->Orange*/
+.boutonBeige {
+  padding: 7px;
+  background-color: #FFE4C4;
+  color: #9B5208;
+  border-radius: 7px;
+  border: none;
+}
+
+.boutonBeige:hover {
+  background-color: #CD853F;
+  color: white;
+  border: none
+}
+
+/*-------------------------------------- FIN BOUTON ----------------------------------------------*/
+.caseRecherche {
+  border-radius: 7px;
+  border: none;
+}
+
+.dropdown-toggle {
+  width: 50%;
+  padding: 7px;
+}
+
+.couleurSelection :hover
+/* pour afficher une couleur quand on passe la souris dessus, meilleur lisiblité quand on choisit */
+  {
+  background-color: skyblue;
+  color: white;
+}
+
+/* ------------------------Les Couleurs------------------------------------ */
+.rondCouleurs
+/*info générales*/
+  {
+  margin: 10px;
+  width: 40px;
+  height: 30px;
+  border-radius: 30px;
+  /* Ces 2 trucs marches pas :/ */
+  border-color: black;
+  border-top: 5px;
+}
+
+.rondRouge {
+  background-color: red;
+}
+
+.rondOrange {
+  background-color: orange;
+}
+
+.rondJaune {
+  background-color: yellow;
+}
+
+.rondVert {
+  background-color: green;
+}
+
+.rondBleu {
+  background-color: blue;
+}
+
+.rondViolet {
+  background-color: purple;
+}
+
+.rondBlanc {
+  background-color: white;
+}
+
+.rondCreme {
+  background-color: rgb(255, 247, 228);
+}
+
+.rondMarron {
+  background-color: brown;
+}
+
+.rondNoir {
+  background-color: black;
+}
+
+/*/////////////////////////////////////////////////////////////////*/
+
+.accordion {
+  margin: 20px;
+  margin-top: 50px;
+}
+
+.dropdown-menu {
+  padding: 10px;
+}
+
+.titre-footer {
+  text-align: center;
+  /*marche pas*/
+  margin-bottom: 50px;
+}
+
+.connection {
+  background-color: white;
+  box-shadow: 0px 10px 10px gray;
+  width: 50%;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+/* ----------------------------------------nav----------------------------------------------*/
+.nav-connection {
+  padding-bottom: 10px;
+  text-align: center;
+  box-shadow: 0px 5px 5px gray;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+.nav {
+  z-index: 10;
+  /* pour mettre au premier plan, surtout en mode téléphone*/
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  /*pour pas bouger qand on scrole la page*/
+  /* margin-bottom: 20px; */
+  padding: 5px 0px 5px 0px;
+  background-color: #015379;
+}
+
+.nav>.nav-btn {
+  display: none;
+  /*pas visible en mode ordinateur*/
+}
+
+.nav>.nav-links {
+  /* display: inline; */
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-end; */
+  margin-left: 15px;
+  border: none;
+  /* float: right; */
+  /* font-size: 18px; */
+}
+
+
+/*bouton nav bleu-->blanc*/
+.nav>.nav-links>.fond {
+  padding: 7px;
+  background-color: skyblue;
+  color: white;
+  border-radius: 7px;
+}
+
+.nav>.nav-links>.fond:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Bouton nav, fond blanc --> bleu */
+.nav>.nav-links>.simple {
+  padding: 7px;
+  background-color: white;
+  color: black;
+  border-radius: 7px;
+}
+
+.nav>.nav-links>.simple:hover {
+  background-color: skyblue;
+  color: white;
+}
+
+/*bouton nav rond rouge--> blanc*/
+.nav>.nav-links>.coeur {
+  padding: 7px;
+  background-color: #FFDBDB;
+  color: black;
+  border-radius: 7px;
+}
+
+.nav>.nav-links>.coeur:hover {
+  background-color: #980606;
+  color: white;
+}
+
+.nav>#nav-check {
+  display: none;
+}
+
+/*--------------------------------------------nav pour téléphone--------------------------*/
+@media (max-width:960px) {
+  .nav>.nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .nav>.nav-btn>label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+
+  .nav>.nav-btn>label:hover,
+  .nav #nav-check:checked~.nav-btn>label {
+    background-color: skyblue;
+    /* couleur change quand le menu est déroulé*/
+  }
+
+  .nav>.nav-btn>label>span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+
+  .nav>.nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #44A2CA;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    margin-left: 0%;
+    top: 50px;
+    /*pour pas se superposers sur la barre nav en haut*/
+  }
+
+  .nav>.nav-links>a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav>.nav-links>.fond {
+    border-radius: 0%;
+  }
+
+  .nav>.nav-links>.simple {
+    border-radius: 0%;
+  }
+
+  .nav>.nav-links>.coeur {
+    border-radius: 0%;
+  }
+
+  .nav>#nav-check:not(:checked)~.nav-links {
+    height: 0px;
+  }
+
+  .nav>#nav-check:checked~.nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+
+/*cadre avec ombre, angle arrondit*/
+.cadre {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  border-color: black;
+  /* margin: 20px; */
+  box-shadow: 0px 10px 10px gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+/*pour des rendu responsible : sur ordi*/
+.publicite {
+  display: flex;
+  justify-content: center;
+}
+
+.infoProfil {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.infoProfil2 {
+  justify-content: flex-start;
+}
+
+/*pour des rendu responsible : sur telephone*/
+@media (max-width:960px) {
+  .publicite {
+    text-align: center;
+    display: block;
+  }
+
+  .infoProfil {
+    text-align: center;
+    display: block;
+  }
+
+  .infoProfil2 {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/*police blue ciel*/
+.policeSkyBlue {
+  color: skyblue;
+  font-weight: bolder;
+}
